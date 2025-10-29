@@ -24,7 +24,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.m2
-          key: ${{ runner.os }}-maven-${{ hashFiles('todoapp-swe451/pom.xml') }}
+          key: ${{ runner.os }}-maven-${{ hashFiles('todoapp/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
 
